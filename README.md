@@ -44,24 +44,33 @@ mostrando outra forma de exibir cores através de biblioteca, o que não é o in
 <h2>Como usá-las?</h2>
 <h3> Fonte: </h3>
 >>> print("<a href="">\033[32m</a>Helloworld!")
-<h3>Resultado:</h3>
-<img src="https://github.com/EddieMC-Dev/Cores-no-Terminal-Python/blob/main/teste1.PNG?raw=true" width=100  align="left"> <br>
+<h4>Resultado:</h4>
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste1.PNG"> 
 
 <h3> Fundo: </h3>
 >>> print("<a href="">\033[42m</a>Helloworld!")
+<h4>Resultado:</h4>
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste2.PNG">
 <h3> Fonte + Fundo: </h3>
->>> print("<a href="">\033[32;42m</a>Helloworld!")
+>>> print("<a href="">\033[31;42m</a>Helloworld!")
+<h4>Resultado:</h4>
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste3.PNG">
 <h3> Como remover ambos: </h3>
->>> print("<a href="">\033[32;42m</a>Helloworld!<a href="">\033[m</a>")<br>
+>>> print("<a href="">\033[31;42m</a>Helloworld!<a href="">\033[m</a>")<br>
 >>> print("Nice!")
+<h4>Resultado:</h4>
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste4.PNG">
 <h3> Como remover separado: </h3>
 Removendo a fonte:<br><br>
-print("<a href="">\033[32;42m</a>Helloworld!<a href="">\033[0;42m</a>")<br>
-print("GOOD!!!")<br><br>
-
+>>> print("<a href="">\033[31;42m</a>Helloworld!<a href="">\033[0;42m</a>")<br>
+>>> print("GOOD!!!")<br><br>
+<h4>Resultado:</h4>
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste5.PNG">
 Removendo o fundo: <br><br>
-print("<a href="">\033[32;42m</a>Helloworld!<a href="">\033[0;32m</a>")<br>
-print("Good!!!")<br>
+>>> print("<a href="">\033[31;42m</a>Helloworld!<a href="">\033[0;31m</a>")<br>
+>>> print("Good!!!")<br>
+<h4>Resultado:</h4>
+<imc src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste6.PNG">
 
 <hr>
 <h2> Para saber mais, acesse as bibliografias: </h2>
