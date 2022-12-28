@@ -44,6 +44,8 @@ mostrando outra forma de exibir cores através de biblioteca, o que não é o in
 <h2>Como usá-las?</h2>
 <h3> Fonte: </h3>
 >>> print("<a href="">\033[32m</a>Helloworld!")
+<h2>Resultado:</h2>
+<img src="teste1.png" width=100  align="left">
 <h3> Fundo: </h3>
 >>> print("<a href="">\033[42m</a>Helloworld!")
 <h3> Fonte + Fundo: </h3>
