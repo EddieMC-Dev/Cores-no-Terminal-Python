@@ -70,7 +70,7 @@ Removendo o fundo: <br><br>
 >>> print("<a href="">\033[31;42m</a>Helloworld!<a href="">\033[0;31m</a>")<br>
 >>> print("Good!!!")<br>
 <h4>Resultado:</h4>
-<imc src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste6.PNG">
+<img src="https://raw.githubusercontent.com/EddieMC-Dev/Cores-no-Terminal-Python/main/teste6.PNG">
 
 <hr>
 <h2> Para saber mais, acesse as bibliografias: </h2>
